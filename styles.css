@@ -325,8 +325,6 @@ h1 {
     }
     
     .tile {
-        width: 65px;
-        height: 65px;
         font-size: 25px;
         border: 4px solid #fac4d2;
     }
