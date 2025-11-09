@@ -12,11 +12,11 @@ body {
 }
 
 #board {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 
     background-color: #fbd9e5;
-    border: 6px solid #fac4d2;
+    border: 9px solid #fac4d2;
 
     margin: 0 auto;
     display: flex;
@@ -24,11 +24,11 @@ body {
 }
 
 .tile {
-    width: 90px;
-    height: 90px;
-    border: 5px solid #fac4d2;;
+    width: 135px;
+    height: 135px;
+    border: 7.5px solid #fac4d2;;
 
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -71,8 +71,8 @@ body {
 }
 
 .x256{
-    background-color: #FFD8B1;
-    color: #757575;
+    background-color: #e570b0;
+    color: #1d1d1d;
 }
 
 .x512{
