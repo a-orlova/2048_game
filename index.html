@@ -14,9 +14,9 @@
             <div class="score-container">
                 <h2>score: <span id="score">0</span></h2>
                 <div class="controls">
-                    <button id="undo-btn" class="control-btn">↶ undo</button>
-                    <button id="restart-btn" class="control-btn">↻ restart</button>
-                    <button id="leaders-btn" class="control-btn">🏆 leaders</button>
+                    <button id="undo-btn" class="control-btn"><img src="images/undone.svg" alt="undo last action"></button>
+                    <button id="restart-btn" class="control-btn"><img src="images/restart.svg" alt="restart"></button>
+                    <button id="leaders-btn" class="control-btn"><img src="images/leaderss.svg" alt="leaders"></button>
                 </div>
             </div>
         </header>
@@ -25,11 +25,11 @@
             <div id="board"></div>
             
             <div id="mobile-controls" class="mobile-controls">
-                <button class="mobile-btn" data-direction="up">↑</button>
+                <button class="mobile-btn" data-direction="up"><img src="images/btn_up.svg" alt="up"></button>
                 <div class="mobile-row">
-                    <button class="mobile-btn" data-direction="left">←</button>
-                    <button class="mobile-btn" data-direction="down">↓</button>
-                    <button class="mobile-btn" data-direction="right">→</button>
+                    <button class="mobile-btn" data-direction="left"><img src="images/btn_left.svg" alt="left"></button>
+                    <button class="mobile-btn" data-direction="down"><img src="images/btn_down.svg" alt="down"></button>
+                    <button class="mobile-btn" data-direction="right"><img src="images/btn_right.svg" alt="right"></button>
                 </div>
             </div>
         </main>
@@ -54,8 +54,12 @@
                 <h2>top 10 leaders</h2>
                 <div id="leaders-list"></div>
                 <button id="close-leaders-btn">close</button>
+                <button id="clear-leaders-btn" class="clear-btn hidden">clear</button>
+
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
