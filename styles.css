@@ -47,27 +47,27 @@ body {
 
 .x8{
     background-color: #f283af;
-    color: #757575;
+    color: #5d5d5d;
 }
 
 .x16{
     background-color: #c43670;
-    color: #757575;
+    color: #1d1d1d;
 }
 
 .x32{
-    background-color: #f3cc97;
-    color: #757575;
+    background-color: #fbd8a6;
+    color: #5d5d5d;
 }
 
 .x64{
-    background-color: #FBD9E5;
-    color: #757575;
+    background-color: #ffd57c;
+    color: #5d5d5d;
 }
 
 .x128{
     background-color: #F3CC97;
-    color: #757575;
+    color: #1d1d1d;
 }
 
 .x256{
@@ -97,5 +97,5 @@ body {
 
 .x8192{
     background-color: #8E3A59;
-    color: #757575;
+    color: #000000;
 }
